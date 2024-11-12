@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header">
+      <div class="logo">
+        <a href="#">MyLogo</a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#" id="courses-btn" role="button">Courses &#9662;</a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><a href="#" id="web-development">Web Development</a></li>
+              <li><a href="#" id="digital-marketing">Digital Marketing</a></li>
+              <li><a href="#" id="data-science">Data Science</a></li>
+              <li><a href="#" id="graphic-design">Graphic Design</a></li>
+              <li><a href="#" id="seo-training">SEO Training</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button>Go</button>
+      </div>
+      <div class="hamburger-menu" id="hamburger-menu">&#9776;</div>
+    </header>
+
+    <!-- Sticky Call to Action Button -->
+    <div class="sticky-button">Enroll Now</div>
+
+    <!-- Page Content -->
+
+    <!-- Main Content Section -->
+    <section id="content" class="main-section">
+      <h2 class="web-1"></h2>
+      <p class="web-2">
+        Click on the navbar items to load different content designs dynamically.
+      </p>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
